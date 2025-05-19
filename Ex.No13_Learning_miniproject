@@ -6,7 +6,8 @@ To write a program to train the classifier for -----------------.
 ###  Algorithm:
 
 ### Program:
-  import pandas as pd
+```
+import pandas as pd
 from matplotlib import pyplot as plt
 import numpy as np
 %matplotlib inline
@@ -71,7 +72,7 @@ plt.figure(figsize = (10,7))
 sn.heatmap(cm, annot=True, fmt='d')
 plt.xlabel('Predicted')
 plt.ylabel('Truth')
-
+```
 
 ### Output:
 
