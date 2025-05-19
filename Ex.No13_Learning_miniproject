@@ -16,6 +16,7 @@ df.sample(5)
 tenure_churn_no = df1[df1.Churn=='No'].tenure
 tenure_churn_yes = df1[df1.Churn=='Yes'].tenure
 
+```
 plt.xlabel("tenure")
 plt.ylabel("Number Of Customers")
 plt.title("Customer Churn Prediction Visualiztion")
